@@ -1,9 +1,6 @@
 # docker-conanexiles
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/alinmear/docker-conanexiles.svg?style=flat)](https://hub.docker.com/r/alinmear/docker-conanexiles/) 
-[![Github Stars](https://img.shields.io/github/stars/alinmear/docker-conanexiles.svg?style=flat)](https://github.com/alinmear/docker-conanexiles) 
-[![Github Forks](https://img.shields.io/github/forks/alinmear/docker-conanexiles.svg?style=flat?label=github%20forks)](https://github.com/alinmear/docker-conanexiles/)
-[![Gitter](https://img.shields.io/gitter/room/alinmear/docker-conanexiles.svg?style=flat)](https://gitter.im/alinmear/docker-conanexiles)
+CLONED FORM ALINMEAR to produce an egg with same functionality for Pterodactyl.io.
 
 Features:
 * Full automatic provisioning of steam and conanexiles dedicated server
@@ -12,16 +9,6 @@ Features:
 * Templates for first time setup
 * Running multiple Instances with multiple config directories
 * RCON Support (Ingame Broadcast Msgs for Server events like update) --> DEFAULT ENABLED
-
-
-## New Versioning introduced
-
-NOTE: After PR #12 i introduced versioning for this project. 
-
-- Before the pr we have the version 0.0
-- With the new multi instance setup (#12) we have the version 1.0
-
-For Multiserver feature i added a redis instance. You can also run a single server setup without redis but there are some error msgs in the beginning of container startup; at the moment i can't avoid this, because i used a bash redis project (take a look at the submodules within the submodule folder) for communication to the redis server.
 
 ## Multi Instance Setup
 
